@@ -1,0 +1,39 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Color Variables */
+:root {
+    --primary-gold: #D4AF37;
+    --primary-blue: #1E3A8A;
+    --dark: #1a1a1a;
+    --light: #f8f9fa;
+    --white: #ffffff;
+    --shadow: 0 10px 30px rgba(0,0,0,0.1);
+    --shadow-hover: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Navigation */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 
